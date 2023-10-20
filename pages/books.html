@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana na fisio</title>
+</head>
+<body>
+
+    <header className="main-header">
+        <div>
+            <h2>Logo</h2>
+        </div>
+
+        <nav className="navbar">
+            <div>
+                <a href="#">Home</a>
+                <a href="#">Livros Sanar</a>
+                <a href="#">Conteúdo</a>
+                <a href="#">Resumos</a>
+                <a href="#">Livros Amazon</a>
+                <a href="#">Promoções</a>
+            </div>
+        </nav>
+
+        <search>
+            <form id="form-search">
+                <input
+                    type="search"
+                    name="search"
+                    id="input-form-search"
+                    placeholder="Pesquise resumos, livros"
+                />
+                <button type="submit">Pesquisar</button>
+            </form>
+        </search>
+
+    </header>
+
+    <main>
+        <h1>Renderização de livros</h1>
+
+        <ul class="books-list">
+
+        </ul>
+    </main>
+<script src="../scripts/renderBooks.js" type="module"></script>
+</body>
+</html>
